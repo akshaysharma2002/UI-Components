@@ -1,0 +1,29 @@
+/* Homepage.module.css */
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+    text-align: center;
+  }
+  .linkContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .linkContainer a {
+    display: block;
+    padding: 10px;
+    background-color: #f5f5f5;  
+    text-align: center;
+    text-decoration: none;
+    color: rgb(24, 24, 25);
+    border-radius: 5px;
+  }
+  .linkContainer a:hover {
+    color: #000000;
+    background-color: #6cf3ff;
+  }
+  .h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,14 @@
+.time-picker {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.format-toggle {
+  display: flex;
+  gap: 1rem;
+}
+
+.result {
+  margin-top: 1rem;
+}

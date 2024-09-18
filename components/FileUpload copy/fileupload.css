@@ -1,0 +1,38 @@
+.file-upload-container {
+  margin-bottom: 20px;
+}
+
+.file-upload-container input[type="file"] {
+  display: none;
+}
+
+.file-upload-container label {
+  display: block;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+}
+
+.file-upload-container label:hover {
+  background-color: #e0e0e0;
+}
+
+.file-upload-container button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.file-upload-container button:hover {
+  background-color: #2c66e3;
+}
+
+.uploaded-file {
+  margin-top: 10px;
+  font-weight: bold;
+}
